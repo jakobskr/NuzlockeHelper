@@ -13,36 +13,6 @@ SITE = "https://pokemondb.net/pokedex/national"
 VERBOSE = False
 
 
-def notify(results):
-	print("found", results)
-
-
-"""
-def static():
-	url = Request(SITE,
-	headers={'User-Agent': 'Mozilla/5.0'})
-	response = urlopen(url).read()
-	page = response.decode("utf-8")
-	f = open("site.html", "w")
-	f.write(page)
-	page
-	#print(response, file="out.log")
-	notify(14)
-	print("test")
-	f.close()
-
-
-def web3():
-	browser = mechanicalsoup.StatefulBrowser()
-	page = browser.get("https://www.bolia.com/nb-no/mot-oss/butikker/online-outlet/?family=cosy&lastfacet=family&fbclid=IwAR2x9Yv1WhQ9Vnc0Bz3Lblu3s1BIyn9JfT8n-BLeNwiLqc1My9d2fQliUak")
-	results = page.soup.find("div",)
-	print(type(results))
-	#print(results.text)
-	
-	#for i in results:
-	#    print(i)
-	#print(page.soup)"""
-
 
 def gen1():
 	NotImplementedError
