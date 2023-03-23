@@ -56,6 +56,7 @@ def gen3():
 	NotImplementedError
 
 
+# tutorial kinda used: https://pyimagesearch.com/2014/03/24/building-pokedex-python-scraping-pokemon-sprites-step-2-6/
 def gen4():
 	lastMon = 493
 	baseSpritePath = "https://img.pokemondb.net/sprites/diamond-pearl/normal/"
